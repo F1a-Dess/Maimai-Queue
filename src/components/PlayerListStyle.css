@@ -1,0 +1,54 @@
+.notification {
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: center;
+  max-width: 400px;
+  align-content: center;
+}
+
+.refreshed-button {
+  background-color: green; /* Green background for refreshed state */
+  color: white; /* White text */
+}
+
+.player-list-container {
+  padding: 10px;
+  display: flex; /* Enable flexbox */
+  flex-direction: column; /* Stack items vertically */
+}
+
+.logo-placeholder {
+  width: 100px; /* Adjust size as needed */
+  height: auto;
+  align-content: center;
+  display: flex;
+}
+
+.queue-table {
+  background-color: #1a1a1a; /* Set your desired background color */
+  border-radius: 15px; /* Rounded corners */
+  padding: 10px;
+  width: 800px;
+  content: flex;
+}
+
+.selected-player {
+  border: 2px solid purple; /* Glowing purple border */
+  border-radius: 7px; /* Rounded corners */
+  box-shadow: 0 0 10px purple; /* Glowing effect */
+}
+
+.green-bordered-table {
+  border: 2px solid green;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.green-bordered-table td {
+  border: 1px solid green;
+  padding: 10px;
+  text-align: center;
+}

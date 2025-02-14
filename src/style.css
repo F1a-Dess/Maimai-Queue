@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #333; /* Dark background */
+  color: #fff; /* White text */
+  text-align: center; /* Center text globally */
+}
+
+.notification {
+  background-color: #555; /* Darker grey notification background */
+  color: #fff; /* White text */
+  border-radius: 5px;
+  padding: 15px; /* Increased padding for more space */
+  margin: 15px auto; /* Increased margin for better spacing */
+  text-align: center; /* Center text */
+}
+
+.queue-table, .green-bordered-table {
+  background-color: #444; /* Darker table background */
+  border: none; /* Remove border */
+  border-radius: 5px;
+  padding: 5px; /* Increased padding for better spacing */
+  margin: 10px auto; /* Center the tables */
+  max-width: 400px;
+}
+
+.queue-table div, .green-bordered-table td {
+  padding: 5px; /* Increased padding for table cells */
+  text-align: center; /* Center text in table cells */
+  border-bottom: none; /* Remove bottom border */
+}
+
+
+.selected-player {
+  background-color: #666; /* Slightly darker grey for selected player */
+}
+
+button {
+  background-color: #383038; /* Darker button color */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 12px 24px; /* Increased padding for buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  display: flex; /* Ensure button is a block element */
+  content: center; /* Center the button */
+  margin-top: 20px; /* Add margin above the button */
+  margin: 0 auto; /* Center the button */
+}
+
+button:hover {
+  background-color: #553c4d; /* Darker shade on hover */
+}
